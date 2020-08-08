@@ -1,0 +1,231 @@
+@import 'var.scss';
+@import 'font.scss';
+@import 'mixins.scss';
+
+@media screen and (min-width: 992px) {
+    .sticky-nav {
+        background-color: rgb(64, 147, 56);
+    }
+    
+    .sticky-nav .logo {
+        width: 128px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .join-us-today {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        width: 100%;
+        background-color: $colourGreen;
+        padding: 20px 92px 19px 92px;
+    }
+
+    .join-us-today .title {
+        text-align: left;
+        @include fontExtremeBold(30px, $colourWhite, 37px);
+        letter-spacing: 0px;
+        flex-basis: 162px;
+        padding-right:20px;
+        flex-grow: 0;
+    }
+
+    .join-us-today .field-group {
+        flex-grow: 1;
+    }
+
+    .join-us-today .field-row {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .join-us-today input {
+        flex-grow: 1;
+        display: inline-block;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        height: 40px;
+        @include fontMedium(15px, $colourGrey, 40px);
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .join-us-today .field-row:first-child {
+        margin-top: 6px;
+    }
+
+    .join-us-today .field-row input[type='checkbox'] {
+        display: none;
+    }
+
+    .join-us-today .field-row input[type='checkbox'] + label {
+        color: #fff;
+        margin-bottom: 0px;
+        @include fontMedium(13px, $colourWhite, 15px);
+        padding-left: 20px;
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .join-us-today .field-row input[type='checkbox'] + label::before {
+        content: '';
+        background-color: $colourWhite;
+        border-radius: 4px;
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        top: 4px;
+        left: 0px;
+    }
+
+    .join-us-today .field-row input[type='checkbox']:checked + label::before {
+        background-color: $colourBlack;
+    }
+
+    .join-us-today button {
+        flex-grow: 1;
+        display: inline-block;
+        padding: 0px 20px;
+        border: none;
+        @include fontExtremeBold(24px, $colourWhite, 40px);
+        letter-spacing: 0px;
+        opacity: 1;
+        background: $colourOrange 0% 0% no-repeat padding-box;
+        cursor: pointer;
+    }
+
+    .stay-connected {
+        padding-bottom: 20px;
+        border: 1px solid #B1B1B1;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top:20px;
+    }
+
+    .stay-connected .text {
+        width: 200px;
+        display: inline-block;
+        @include fontCond(20px, $colourGreen, 22px, 700, normal);
+        text-align: center;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+
+    .stay-connected .icons {
+        display: flex;
+        width: 219px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .stay-connected .facebook-icon {
+        width: 8px;
+        height: 17px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+    }
+
+    .stay-connected .instagram-icon {
+        width: 18px;
+        height: 18px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .stay-connected .twitter-icon {
+        width: 21px;
+        height: 17px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .stay-connected .linkedin-icon {
+        width: 18px;
+        height: 18px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        //background: transparent url('img/61109.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .stay-connected .youtube-icon {
+        width: 25px;
+        height: 17px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        //background: transparent url('img/61109.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .stay-connected .mail-icon {
+        width: 24px;
+        height: 13px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        //background: transparent url('img/61109.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .footer-links-and-tms {
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-bottom: 59px;
+    }
+
+    .footer-links-and-tms .link-group {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer-links-and-tms .footer-tm {
+        padding-top: 6px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer-links-and-tms .link {
+        @include fontLight(15px, $colourBlack, 20px);
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .footer-links-and-tms .text {
+        @include fontLight(15px, $colourBlack, 20px);
+    }
+
+    .footer-links-and-tms .text .bold {
+        @include fontMedium(15px, $colourBlack, 20px);
+    }
+
+    .footer-links-and-tms .pipe {
+        padding-left: 4px;
+        padding-right: 4px;
+        @include fontLight(15px, $colourBlack, 20px);
+    }
+
+    .footer-tm {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .join-us-today {
+        padding: 20px 6.5vw 19px 6.5vw;
+    }
+}

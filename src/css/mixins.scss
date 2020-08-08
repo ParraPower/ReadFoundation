@@ -1,0 +1,46 @@
+@import 'var.scss';
+@import 'font.scss';
+
+@mixin fontLight($fontSize, $colour, $lineHeight) {
+    font-family: $fontNameLight;
+    font-size: $fontSize;
+    color: $colour;
+    line-height: $lineHeight;
+}
+
+@mixin fontMedium($fontSize, $colour, $lineHeight) {
+    font-family: $fontNameMedium;
+    font-size: $fontSize;
+    color: $colour;
+    line-height: $lineHeight;
+}
+
+@mixin fontBold($fontSize, $colour, $lineHeight) {
+    font-family: $fontNameBold;
+    font-size: $fontSize;
+    color: $colour;
+    line-height: $lineHeight;
+}
+
+@mixin fontExtraBold($fontSize, $colour, $lineHeight) {
+    font-family: $fontNameExtraBold;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: $colour;
+}
+
+@mixin fontExtremeBold($fontSize, $colour, $lineHeight) {
+    font-family: $fontNameExtremeBold;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: $colour;
+}
+
+@mixin fontCond($fontSize, $colour, $lineHeight, $fontWeight, $fontStyle) {
+    font-family: $fontNameCond;
+    font-size: $fontSize;
+    color: $colour;
+    line-height: $lineHeight;
+    font-weight: $fontWeight;
+    font-style: $fontStyle;
+}

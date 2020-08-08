@@ -1,0 +1,180 @@
+@import 'var.scss';
+@import 'font.scss';
+@import 'mixins.scss';
+
+@media screen and (max-width: 991px) {
+    .sticky-nav {
+        background-color: rgb(64, 147, 56);
+    }
+
+    .sticky-nav .logo {
+        width: 93px;
+    }
+
+    .join-us-today {
+        width: 100%;
+        background-color: $colourGreen;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-bottom: 19px;
+    }
+
+    .join-us-today .title {
+        padding-top: 24px;
+        text-align: center;
+        @include fontExtremeBold(30px, $colourWhite, 37px);
+        letter-spacing: 0px;
+    }
+
+    .join-us-today .field-row:last-child {
+        display: none;
+    }
+
+    .join-us-today input {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        height: 40px;
+        @include fontMedium(15px, $colourGrey, 40px);
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .join-us-today button {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        border: none;
+        @include fontExtremeBold(24px, $colourWhite, 40px);
+        letter-spacing: 0px;
+        opacity: 1;
+        background: $colourOrange 0% 0% no-repeat padding-box;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .stay-connected {
+        padding-bottom: 20px;
+        border: 1px solid #B1B1B1;
+    }
+
+    .stay-connected .text {
+        padding-top: 20px;
+        //@include fontExtraBold(20px, #4FAF46, 22px);
+        @include fontCond(20px, $colourGreen, 22px, 700, normal);
+        text-align: center;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        //font: 30px Museo Sans Cond;
+        opacity: 1;
+    }
+
+    .stay-connected .icons {
+        display: flex;
+        width: 219px;
+        margin: 0 auto;
+        padding-top: 10px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .stay-connected .facebook-icon {
+        width: 8px;
+        height: 17px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+    }
+
+    .stay-connected .instagram-icon {
+        width: 18px;
+        height: 18px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .stay-connected .twitter-icon {
+        width: 21px;
+        height: 17px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .stay-connected .linkedin-icon {
+        width: 18px;
+        height: 18px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        //background: transparent url('img/61109.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .stay-connected .youtube-icon {
+        width: 25px;
+        height: 17px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        //background: transparent url('img/61109.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .stay-connected .mail-icon {
+        width: 24px;
+        height: 13px;
+        background: $colourGreen 0% 0% no-repeat padding-box;
+        //background: transparent url('img/61109.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .footer-links-and-tms {
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-bottom: 90px;
+    }
+
+    .footer-links-and-tms .link-group {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-links-and-tms .footer-tm {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer-links-and-tms .link {
+        @include fontLight(15px, $colourBlack, 20px);
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .footer-links-and-tms .text {
+        @include fontLight(15px, $colourBlack, 20px);
+    }
+
+    .footer-links-and-tms .text .bold {
+        @include fontMedium(15px, $colourBlack, 20px);
+    }
+
+    .footer-links-and-tms .pipe {
+        padding-left: 4px;
+        padding-right: 4px;
+        @include fontLight(15px, $colourBlack, 20px);
+    }
+
+    .footer-tm {
+        padding-top: 20px;
+    }
+
+}

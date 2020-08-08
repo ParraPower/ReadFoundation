@@ -1,0 +1,15 @@
+@import 'var.scss';
+@import 'font.scss';
+@import 'mixins.scss';
+
+* {
+    font-family: 'Museo Sans 100', sans-serif;
+}
+
+h1 {
+    color: red;
+}
+
+.sticky-nav {
+    width: 100%;
+}
