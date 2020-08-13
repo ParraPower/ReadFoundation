@@ -11,6 +11,96 @@
         width: 93px;
     }
 
+    .row .col-12 {
+        padding:0px;
+    }
+
+    form.form {
+        box-shadow: 0px 2px 5px #000029;
+        width: 100%;
+        padding: 20px 17px 20px 17px;
+
+        .title {
+            height: 40px;
+            @include fontExtraBold(30px, $colourBlack, 30px);
+        }
+
+        .form-check {
+            padding-left: 1.5rem;
+        }
+
+        .form-check .form-check-input {
+            margin-top: 19px;
+            margin-left: -1.5rem;
+            border: 1px solid $colourGreyBorder2;
+            @include fontLight(20px, $colourGreyBorder2, 30px);
+        }
+
+        .form-check .form-check-label {
+            margin-top: 15px;
+        }
+
+        label {
+            margin-top: 20px;
+            margin-bottom: 0px;
+            @include fontMedium(20px, $colourBlack, 20px);
+            letter-spacing: 0px;
+            text-align: left;
+        }
+
+        label.extra-bold {
+            @include fontExtraBold(20px, $colourBlack, 30px);
+        }
+
+        .field-row.required label > .asterisk {
+            @include fontMedium(20px, $colourGreen, 20px);
+            letter-spacing: 0px;
+            text-align: left;
+        }
+
+        .field-content {
+            border: 1px solid $colourGreyBorder;
+            padding: 27px 24px 26px 16px;
+        }
+
+        .green {
+            color: $colourGreen;
+        }
+
+        .black {
+            color: $colourBlack;
+        }
+
+        .field-content .text {
+            text-align: left;
+            @include fontMedium(20px, $colourBlack, 30px);
+            letter-spacing: 0px;
+            padding-top: 20px;
+        }
+
+        .field-content .text.extra-bold {
+            text-align: left;
+            @include fontMedium(20px, $colourGreen, 30px);
+            letter-spacing: 0px;
+        }
+
+        .form-control {
+            margin-top: 10px;
+            border-radius: 0px;
+            padding: 10px 20px 10px 20px;
+            height: 40px;
+            border: 1px solid $colourGreyBorder;
+            @include fontMedium(15px, $colourBlack, 30px);
+            text-align: left;
+            letter-spacing: 0px;
+            width: 100%;
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+        }
+    }
+
     .join-us-today {
         width: 100%;
         background-color: $colourGreen;
