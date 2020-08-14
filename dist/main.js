@@ -338,18 +338,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./js/donationCheckout.js":
-/*!********************************!*\
-  !*** ./js/donationCheckout.js ***!
-  \********************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\njquery__WEBPACK_IMPORTED_MODULE_0__(document).ready(function () {\r\n    jquery__WEBPACK_IMPORTED_MODULE_0__(document).on(\"click\", \".donation-checkout .form #nextStep\", function () {\r\n        jquery__WEBPACK_IMPORTED_MODULE_0__(\".step-1\").addClass(\"d-none\");\r\n        jquery__WEBPACK_IMPORTED_MODULE_0__(\".step-2\").removeClass(\"d-none\");\r\n    });\r\n});\n\n//# sourceURL=webpack:///./js/donationCheckout.js?");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js!./src/css/app.scss":
 /*!***************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/resolve-url-loader??ref--4-2!./node_modules/sass-loader/dist/cjs.js!./src/css/app.scss ***!
@@ -474,7 +462,19 @@ eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/run
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/app.scss */ \"./src/css/app.scss\");\n/* harmony import */ var _css_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_mobile_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/mobile.scss */ \"./src/css/mobile.scss\");\n/* harmony import */ var _css_mobile_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_mobile_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _css_desktop_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/desktop.scss */ \"./src/css/desktop.scss\");\n/* harmony import */ var _css_desktop_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_desktop_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _js_donationCheckout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../js/donationCheckout */ \"./js/donationCheckout.js\");\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/app.scss */ \"./src/css/app.scss\");\n/* harmony import */ var _css_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_mobile_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/mobile.scss */ \"./src/css/mobile.scss\");\n/* harmony import */ var _css_mobile_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_mobile_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _css_desktop_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/desktop.scss */ \"./src/css/desktop.scss\");\n/* harmony import */ var _css_desktop_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_desktop_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _js_donationCheckout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/donationCheckout */ \"./src/js/donationCheckout.js\");\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/js/donationCheckout.js":
+/*!************************************!*\
+  !*** ./src/js/donationCheckout.js ***!
+  \************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\njquery__WEBPACK_IMPORTED_MODULE_0__(document).ready(function () {\r\n    jquery__WEBPACK_IMPORTED_MODULE_0__(document).on(\"click\", \".donation-checkout .form #nextStep\", function () {\r\n        jquery__WEBPACK_IMPORTED_MODULE_0__(\".step-1\").addClass(\"d-none\");\r\n        jquery__WEBPACK_IMPORTED_MODULE_0__(\".step-2\").removeClass(\"d-none\");\r\n    });\r\n});\n\n//# sourceURL=webpack:///./src/js/donationCheckout.js?");
 
 /***/ })
 
