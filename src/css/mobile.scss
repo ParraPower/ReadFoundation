@@ -11,8 +11,21 @@
         width: 93px;
     }
 
+    .sticky-nav .sub-nav {
+        display: none;
+    }
+
+    .ribbons {
+        display: none;
+        position: relative;
+    }
+
+    .ribbons > * {
+        position: absolute;
+    }
+
     .row .col-12 {
-        padding:0px;
+        padding: 0px;
     }
 
     .content-block {
