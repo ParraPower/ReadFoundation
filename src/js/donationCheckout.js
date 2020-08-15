@@ -1,4 +1,6 @@
-import * as $ from 'jquery'
+
+import * as $ from 'jquery';
+import './common';
 
 $(document).ready(function () {
     $(document).on("click", ".donation-checkout .form #nextStep", function () {

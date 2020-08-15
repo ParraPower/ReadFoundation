@@ -2,10 +2,21 @@ var path = require('path');
 
 module.exports = {
     mode: "development",
-    entry: "./src/index.js",
-    output: {
-      filename: 'main.js',
+    entry: {
+        css: "./src/index.js",
+        donationCheckout: "./src/js/donationCheckout.js",
+        events: "./src/js/events.js",
     },
+    output: {
+        filename: '[name].bundle.js'
+        //filename: 'main.js',
+    },
+    //optimization: {
+    //    splitChunks: {
+    //        // include all types of chunks
+    //        chunks: 'all'
+    //    }
+    //},
     module: {
       rules: [
         {

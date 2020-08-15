@@ -131,6 +131,21 @@
         margin-bottom: 100px;
     }
 
+    .events-list {
+
+        .event {
+            margin-top: 30px;
+        }
+
+        .event:nth-child(1), .event:nth-child(2), .event:nth-child(3) {
+            margin-top: 0px;
+        }
+
+        /*.event .interior {
+            padding-top: 20px;
+        }*/
+    }
+
     .form {
         .btn.btn-primary {
             display: inline-block;

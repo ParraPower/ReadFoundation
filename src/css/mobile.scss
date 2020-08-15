@@ -32,6 +32,12 @@
         padding: 40px 17px 100px 17px;
     }
 
+    .events-list {
+        .event:not(:first-child) {
+            margin-top: 20px;
+        }
+    }
+
     .form {
         .btn.btn-primary {
             display: block;
@@ -42,6 +48,44 @@
         .payment-grid .field-group {
             background-color: #E2E2E2;
             padding: 15px 20px 22px 20px;
+        }
+    }
+
+    .sticky-footer {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: $colourGreen;
+        height: 60px;
+        width: 100%;
+        line-height: 60px;
+
+
+        .text {
+            display: inline-block;
+            @include fontExtremeBold(20px, $colourWhite, 60px);
+            text-transform: uppercase;
+        }
+
+        .circle {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            margin-top:10px;
+            background-color: $colourOrange;
+            line-height: 40px;
+            text-align:center;
+            cursor: pointer;
+        }
+
+        .triangle-up {
+            @include triangleTop(11px, 11px, $colourWhite);
         }
     }
 
@@ -210,5 +254,20 @@
     .footer-tm {
         padding-top: 20px;
     }
+}
 
+@media (min-width: 576px) and (max-width: 991px) {
+    .events-list {
+        .event:nth-child(2) {
+            margin-top: 0px;
+        }
+
+        .event:nth-child(2n+1) {
+            padding-right: 10px;
+        }
+
+        .event:nth-child(2n) {
+            padding-left: 10px;
+        }
+    }
 }
