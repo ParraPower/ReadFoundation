@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script type="text/javascript" src="/dist/css.bundle.js"></script>
-    <script type="text/javascript" src="/dist/events.bundle.js"></script>
+    <script type="text/javascript" src="/dist/event.bundle.js"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -65,57 +65,35 @@
                     image goes here
                 </div>
                 <div class="page-title">
-                    <h1><span class="title-chevron">&gt;</span>Events</h1>
+                    <h1><span class="title-chevron">&gt;</span>event name</h1>
                 </div>
-                <div>
+                <div class="page-body">
                     <div>
-                        At READ, we love connecting with our donor family whether it be at a Gala,
-                        a Fun Day or an interactive online. No matter how, our READ donors are the
-                        reason our work is possible. Events are one of the ways we’re able to unite
-                        our READ community in an effort to get to know them whilst also making a
-                        difference <span class="extra-bold">together.</span> Sign up to be the first to know about an upcoming
-                        event near you today!
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+                        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
+                        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
+                        ipsum dolor sit amet. 
+                        <br /><br />
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet 
+                        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero 
+                        eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
+                        takimata sanctus est Lorem ipsum dolor sit amet. 
+                        <br /><br />
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
+                        et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
+                        justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
                     </div>
-                    <div class="page-title">
-                        <div class="h1"><span class="title-chevron">&gt;</span>our events</div>
-                    </div>
-                    <div class="row events-list">
-                        <div class="col-sm-6 col-lg-4 event">
-                            <img src="./img/utsman-media-gp_veO5Otm0-unsplash.png" />
-                            <div class="interior">
-                                <span class="link">Event Name<span class="triangle-right"></span></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 event">
-                            <img src="./img/utsman-media-gp_veO5Otm0-unsplash.png" />
-                            <div class="interior">
-                                <span class="link">Event Name<span class="triangle-right"></span></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 event">
-                            <img src="./img/utsman-media-gp_veO5Otm0-unsplash.png" />
-                            <div class="interior">
-                                <span class="link">Event Name<span class="triangle-right"></span></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 event">
-                            <img src="./img/utsman-media-gp_veO5Otm0-unsplash.png" />
-                            <div class="interior">
-                                <span class="link">Event Name<span class="triangle-right"></span></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 event">
-                            <img src="./img/utsman-media-gp_veO5Otm0-unsplash.png" />
-                            <div class="interior">
-                                <span class="link">Event Name<span class="triangle-right"></span></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 event">
-                            <img src="./img/utsman-media-gp_veO5Otm0-unsplash.png" />
-                            <div class="interior">
-                                <span class="link">Event Name<span class="triangle-right"></span></span>
-                            </div>
-                        </div>
+                    <div>
+                        <button class="btn btn-primary book-now">
+                            BOOK NOW
+                        </button>
                     </div>
                 </div>
                 <div class="sticky-footer d-md-none">
@@ -123,6 +101,45 @@
                     <span class="circle">
                         <span class="triangle-up"></span>
                     </span>
+                </div>
+                <div class="basket-popup">
+                    <div class="interior">
+                        <div class="text-right">
+                            <span class="popup-close">x</span>
+                        </div>
+                        <div>
+                            <div class="h1"><span class="title-chevron">&gt;</span>your basket</div>
+                        </div>
+                        <div class="field-row basket-details">
+                            You have <span class="extra-bold">1</span> item in your basket
+                        </div>
+                        <div class="field-row">
+                            <div class="img-container">
+                                <img src="/img/events/utsman-media-gp_veO5Otm0-unsplash.png" />
+                            </div>
+                        </div>
+                        <div class="field-row">
+                            <div class="event-name-tickets">
+                                <label class="event-name extra-bold">Event name</label>
+                                <div class="tickets">Ticket Type: <span>Standard</span></div>
+                                <div class="tickets">Tickets: <span class="extra-bold">x2</span></div>
+                            </div>
+                        </div>
+                        <div class="field-row">
+                            <table class="table table-bordered totals">
+                                <tbody>
+                                    <tr>
+                                        <td style="width:64%">Total</td>
+                                        <td class="extra-bold center">&#163;20.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary orange">checkout</button>
+                            <button class="btn btn-primary">add another event</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <form class="join-us-today">

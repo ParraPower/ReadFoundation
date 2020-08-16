@@ -6,6 +6,7 @@ module.exports = {
         css: "./src/index.js",
         donationCheckout: "./src/js/donationCheckout.js",
         events: "./src/js/events.js",
+        event: "./src/js/event.js",
     },
     output: {
         filename: '[name].bundle.js'

@@ -131,6 +131,9 @@
         margin-bottom: 100px;
     }
 
+    .page-content.events-page {
+        margin-bottom: 40px;
+    }
     .events-list {
 
         .event {
@@ -140,17 +143,24 @@
         .event:nth-child(1), .event:nth-child(2), .event:nth-child(3) {
             margin-top: 0px;
         }
-
         /*.event .interior {
             padding-top: 20px;
         }*/
     }
 
+    .btn.btn-primary {
+        display: inline-block;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 40px;
+    }
+
+    .btn.btn-primary:hover {
+        background-color: $colourOrange;
+    }
+
     .form {
         .btn.btn-primary {
-            display: inline-block;
-            padding-left: 40px;
-            padding-right: 40px;
             margin-top: 30px;
         }
 
